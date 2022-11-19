@@ -15,6 +15,7 @@ class Position < ApplicationRecord
 
   has_many :workers
   validates :name, presence: true, uniqueness: true
+  belongs_to :departament
 
 end
 
