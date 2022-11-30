@@ -15,7 +15,9 @@ module.exports = function(api) {
     )
   }
 
+  //япрограммист
   return {
+    
     presets: [
       isTestEnv && [
         '@babel/preset-env',
