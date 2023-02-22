@@ -5,7 +5,6 @@ module Mutations
     argument :current_password, String, required: true
     argument :password, String, required: true
 
-    # z ghjuh
     field :user, Types::UserType, null: true
     field :errors, [String], null: false
 
